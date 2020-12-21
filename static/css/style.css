@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 71px 20px 68px 12px;
+}
+
+/* definiendo el tipo de letra para dos etiquetas de la pagina */
+.header-title,
+.profession {
+  font-family: 'PT Serif', serif;
+}
+
+.header {
+  display: grid;
+  margin: 0;
+}
+
+.header-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -0.045em;
+}
+
+.description-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.045em;
+}
+
+.description {
+  border: 1px solid red;
+  font-size: 14px;
+}
+
+.target {
+  border: 1px solid red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img {
+  width: 138;
+  height: 209;
+}
+
+.profession {
+  writing-mode: vertical-lr;
+}
+
+p {
+}
