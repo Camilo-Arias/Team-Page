@@ -31,27 +31,34 @@ body {
 }
 
 .description {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-size: 14px;
 }
 
 .target {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5.5px;
 }
 
-img {
-  width: 138;
-  height: 209;
-}
+/* .container-proffesion {
+  border: 1px solid red;
+  padding: 0;
+  margin: 0;
+  writing-mode: vertical-lr;
+  position: absolute;
+  display: inline-block;
+} */
 
 .profession {
+  /* border: 1px solid red; */
   writing-mode: vertical-lr;
-}
-
-p {
+  position: absolute;
+  font-size: 10px;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
