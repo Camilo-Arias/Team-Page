@@ -23,36 +23,29 @@ body {
 }
 
 .description-title {
-  margin: 0;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: -0.045em;
+  padding: 0;
+  margin: 38px 0 10px 0;
 }
 
 .description {
-  /* border: 1px solid red; */
   font-size: 14px;
+  margin-bottom: 80px;
 }
 
-.target {
-  /* border: 1px solid red; */
+.target-bottom {
+  margin-top: 50px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 5.5px;
+  grid-row-gap: 25px;
 }
-
-/* .container-proffesion {
-  border: 1px solid red;
-  padding: 0;
-  margin: 0;
-  writing-mode: vertical-lr;
-  position: absolute;
-  display: inline-block;
-} */
 
 .profession {
   /* border: 1px solid red; */
@@ -61,4 +54,9 @@ body {
   font-size: 10px;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
 }
