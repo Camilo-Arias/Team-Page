@@ -37,26 +37,37 @@ body {
 }
 
 .target-bottom {
-  margin-top: 50px;
+  margin-top: 48px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 5.5px;
+  grid-column-gap: 25px;
   grid-row-gap: 25px;
 }
 
 .profession {
-  /* border: 1px solid red; */
   writing-mode: vertical-lr;
   position: absolute;
   font-size: 10px;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-left: 3px;
 }
 
 .name {
   font-weight: 600;
   font-size: 14px;
+  margin: 9px 0 0;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 88px 0 0;
+  padding: 0;
+  text-align: center;
+  color: #a9a9a9;
 }
